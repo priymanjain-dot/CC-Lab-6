@@ -1,6 +1,4 @@
-FROM ubuntu:22.04
-
-RUN apt-get update && apt-get install -y g++
+FROM gcc:13
 
 WORKDIR /app
 
